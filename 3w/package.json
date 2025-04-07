@@ -8,5 +8,8 @@
   },
   "scripts": {
     "build": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.17"
   }
 }

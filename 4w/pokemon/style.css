@@ -1,6 +1,4 @@
 /* detail page 공통 CSS 파일  */
-@import "tailwindcss";
-
 :root {
     --text-color: #eee;
     --text-color-light: #bbb;
@@ -59,7 +57,7 @@ nav h1 {
 
 nav a {
     color: var(--primary-color);
-    font-weight: var(--font-xl);
+    font-weight: var(--font-bold);
     text-decoration: none;
 }
 
@@ -79,9 +77,10 @@ main {
 
 main img {
     height: 30rem;
-    width: 30rem;
-    border: var(--border-light);
+    max-width: 30rem;
+    border: var(--border-dark);
     border-radius: 100%;
+    padding : 1rem;
 }
 
 #table {
@@ -120,6 +119,6 @@ main img {
 }
 
 .content {
-    font-weight: var(--font-regular);
+    font-weight: var(--font-thin);
     font-size: var(--font-sm)
 }

@@ -6,11 +6,9 @@ pokemons_data.map((value, index) => MakeCard(value, index));
 function MakeCard(value, index) {
     let card = document.createElement("div");
     card.classList.add('card');
-
     card.addEventListener('dragstart', (event) => {
         event.preventDefault();
-    })
-
+    });
     card.addEventListener('click', () => {
         cardClick(index+1, value);
     });

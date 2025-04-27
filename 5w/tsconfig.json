@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",    // 최신 ECMAScript 버전으로 컴파일
+    "lib": ["es2017", "dom"],   // ES2017 및 DOM API 사용
+    "strict": true          // 엄격한 타입 검사 설정
+  }
+}

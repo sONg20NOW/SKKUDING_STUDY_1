@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SKKUDING_STUDY_1/8w_router/build/static/css/main.895b6f58.css",
-    "main.js": "/SKKUDING_STUDY_1/8w_router/build/static/js/main.fc994e15.js",
+    "main.js": "/SKKUDING_STUDY_1/8w_router/build/static/js/main.a75c5487.js",
     "static/js/453.8e180a3b.chunk.js": "/SKKUDING_STUDY_1/8w_router/build/static/js/453.8e180a3b.chunk.js",
     "index.html": "/SKKUDING_STUDY_1/8w_router/build/index.html",
     "main.895b6f58.css.map": "/SKKUDING_STUDY_1/8w_router/build/static/css/main.895b6f58.css.map",
-    "main.fc994e15.js.map": "/SKKUDING_STUDY_1/8w_router/build/static/js/main.fc994e15.js.map",
+    "main.a75c5487.js.map": "/SKKUDING_STUDY_1/8w_router/build/static/js/main.a75c5487.js.map",
     "453.8e180a3b.chunk.js.map": "/SKKUDING_STUDY_1/8w_router/build/static/js/453.8e180a3b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.895b6f58.css",
-    "static/js/main.fc994e15.js"
+    "static/js/main.a75c5487.js"
   ]
 }

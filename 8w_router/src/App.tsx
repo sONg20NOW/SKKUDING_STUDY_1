@@ -31,7 +31,7 @@ function App() {
         <Routes>
           <Route path='detail/:id' element={<PokemonDetail data={data} />} />
           <Route path='/' element={<PokemonList data={data}/>} ></Route>
-          <Route element={<PokemonList data={data}/>} ></Route>
+          <Route path='*' element={<PokemonList data={data}/>} ></Route>
         </Routes>
  
       </div>

@@ -4,7 +4,7 @@ import {data} from "./data";
 import PokemonList from './components/PokemonList';
 import PokemonDetail from './components/PokemonDetail';
 
-export const default_path : string = '/SKKUDING_STUDY_1/8w_router/build/'
+export const default_path : string = '/SKKUDING_STUDY_1/8w_router/build'
 
 export interface pokemon_type {
   name: string,
@@ -22,6 +22,7 @@ export interface pokemon_type {
 };
 
 function App() {
+  console.log(default_path + "/");
   return (
     <BrowserRouter>
       <div className="container" style={{userSelect: 'none'}}>
@@ -31,7 +32,7 @@ function App() {
           </Link>
         </nav>
         <Routes>
-          <Route path={default_path + 'detail/:id'} element={<PokemonDetail data={data} />} />
+          <Route path={default_path + '/detail/:id'} element={<PokemonDetail data={data} />} />
           <Route path={default_path + '/'} element={<PokemonList data={data}/>} ></Route>
           <Route path='*' element={<PokemonList data={data}/>} ></Route>
         </Routes>

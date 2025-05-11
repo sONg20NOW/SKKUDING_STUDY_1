@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/SKKUDING_STUDY_1/11w/build/static/css/main.9db52809.css",
+    "main.js": "/SKKUDING_STUDY_1/11w/build/static/js/main.8ddb5012.js",
+    "static/js/453.e1834a42.chunk.js": "/SKKUDING_STUDY_1/11w/build/static/js/453.e1834a42.chunk.js",
+    "index.html": "/SKKUDING_STUDY_1/11w/build/index.html",
+    "main.9db52809.css.map": "/SKKUDING_STUDY_1/11w/build/static/css/main.9db52809.css.map",
+    "main.8ddb5012.js.map": "/SKKUDING_STUDY_1/11w/build/static/js/main.8ddb5012.js.map",
+    "453.e1834a42.chunk.js.map": "/SKKUDING_STUDY_1/11w/build/static/js/453.e1834a42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9db52809.css",
+    "static/js/main.8ddb5012.js"
+  ]
+}

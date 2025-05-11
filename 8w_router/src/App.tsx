@@ -4,6 +4,8 @@ import {data} from "./data";
 import PokemonList from './components/PokemonList';
 import PokemonDetail from './components/PokemonDetail';
 
+export const default_path : string = '/SKKUDING_STUDY_1/8w_router/build/'
+
 export interface pokemon_type {
   name: string,
   height: string,
@@ -24,13 +26,13 @@ function App() {
     <BrowserRouter>
       <div className="container" style={{userSelect: 'none'}}>
         <nav>
-          <Link to="/" className='header'>
+          <Link to={default_path + "/"} className='header'>
             <div>Pokemon List</div>
           </Link>
         </nav>
         <Routes>
-          <Route path='detail/:id' element={<PokemonDetail data={data} />} />
-          <Route path='/' element={<PokemonList data={data}/>} ></Route>
+          <Route path={default_path + 'detail/:id'} element={<PokemonDetail data={data} />} />
+          <Route path={default_path + '/'} element={<PokemonList data={data}/>} ></Route>
           <Route path='*' element={<PokemonList data={data}/>} ></Route>
         </Routes>
  

@@ -11,13 +11,13 @@ const notoSansKR = Noto_Sans_KR({
   subsets: [], 
 })
 
-export default function Home({params} : {params: {id: string}}) {
-    const id : number = parseInt(params.id, 10);
+export default function Home(props : any) {
+  const id = props.params.id;
 
   return (
-      <div className={"container" + notoSansKR.className } style={{userSelect: 'none'}}>
+      <div className={"container " + notoSansKR.className } style={{userSelect: 'none'}}>
         <Header></Header>
-        <PokemonDetail id={id}/>
+        <PokemonDetail id={parseInt(id, 10)}/>
       </div> 
   );
 }

@@ -1,23 +1,5 @@
 /* detail page 공통 CSS 파일  */
-:root {
-    --text-color: #eee;
-    --text-color-light: #bbb;
-    --accent-color: rgb(220, 86, 75);
-    --primary-color: rgb(247, 196, 55);
-    --bg-color: #111;
-    --max-width: 64rem;
-    --border-dark: 1px solid var(--primary-color);
-    --border-light: 1px solid rgba(247, 196, 55, 0.3);
-    --font-bold: 700;
-    --font-regular: 400;
-    --font-thin: 100;
-    --font-xl: 2rem;
-    --font-lg: 1.5rem;
-    --font-md: 1.25rem;
-    --font-sm: 1rem;
-    --font-xm: 0.8rem;
-    --animation-main: all 0.2s ease-in-out;
-}
+
 
 .container {
     width:100vw;

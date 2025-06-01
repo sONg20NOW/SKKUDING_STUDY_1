@@ -14,3 +14,6 @@
 # 5. React(2)
 [노션 정리 페이지](https://www.notion.so/skkuding/4-React-1-1e1ef9cff545804497a6d553341ec907?pvs=4)<br>
 [demo 구현 페이지](https://song20now.github.io/SKKUDING_STUDY_1/11w/build)<br>
+# 6. RestAPI, GraphQL
+[노션 정리 페이지](https://skkuding.notion.site/6-RestAPI-GraphQL-1f6ef9cff54580369baac1f1c1630be7?pvs=4)<br>
+[demo 구현 페이지](https://song20now.github.io/SKKUDING_STUDY_1/12w/build)<br>
